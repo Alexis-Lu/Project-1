@@ -1,0 +1,165 @@
+body{
+  background-color: white;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 960px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+  display: flex;
+  width: 960px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  border-bottom: 1px solid lightblue;
+  margin-bottom: 30px;
+}
+
+.btn {
+    background-color: white;
+    color: black;
+    padding: 10px 0 10px 0;
+    font-size: 16px;
+    border: none;
+    width: 160px;
+    border-radius: 10px;
+  }
+
+.mission:hover {
+  cursor: pointer;
+  }
+
+  .btn:hover{
+    background-color: lightgray;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    z-index: 1;
+    color: black;
+  }
+  
+  .dropdown-content a {
+    background-color: white;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: lightgray}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+ .logo{
+  height: 96px;
+  width: 128px;
+ }
+
+ a, a:hover, a:visited, a:active {
+  color: inherit;
+  text-decoration: none;
+ }
+
+ .containerform{
+  display: flex;
+  justify-content: center;
+}
+
+.form{
+   display: flex;
+   flex-direction: column;
+   width: 420px;
+   align-items: center;
+}
+
+.yourclass{
+   width: 100%;
+   padding: 10px;
+   margin: 10px;
+}
+
+.container-home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-restaurant{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container-restaurant-left{
+  width: 65%;
+}
+
+.container-restaurant-left > img{
+  width: 85%;
+}
+
+.container-restaurant-right{
+  width: 25%;
+}
+
+table, td{
+  border: 1px solid black;
+  width: 220px;
+  text-align: center;
+}
+
+thead{
+  color: white;
+  background-color: black ;
+}
+
+.container-swimmingpool{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container-swimmingpool-left{
+  width: 65%;
+}
+
+.container-swimmingpool-left > img{
+  width: 85%;
+}
+
+.container-swimmingpool-right{
+  width: 25%;
+}
+
+.container-gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: auto;
+}
+
+.container-gallery > img {
+  width: 80%;
+  padding: 15px;
+  box-shadow: 5px 2.5px 2.5px lightgray ;
+}
+
+.container-pass{
+  display: flex;
+  justify-content: space-evenly;
+}

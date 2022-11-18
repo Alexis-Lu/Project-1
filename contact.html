@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/menu.css">
+    <title>Contacts</title>
+</head>
+<body>
+    <nav>
+    <div class="container">
+        <a href="home.html"><img src="./images/logomoutain.jpg" class="logo"></a>
+        <div class="dropdown">
+            <button class="btn">The Domain</button>
+            <div class="dropdown-content">
+              <a href="history.html">History</a>
+              <a href="presentation.html">Presentation</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="btn">Activities</a></button>
+            <div class="dropdown-content">
+              <a href="restaurants.html">Restaurants</a>
+              <a href="swimmingpool.html">Swimming pool</a>
+            </div>
+        </div>
+          <div class="dropdown">
+            <button class="btn">Products & Services</button>
+            <div class="dropdown-content">
+              <a href="skipass.html">Buy skipass</a>
+              <a href="gallery.html">Gallery</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="btn">Your stay</button>
+            <div class="dropdown-content">
+              <a href="hotels.html">Hotels</a>
+              <a href="campings.html">Campings</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="btn contact"><a href="contact.html">Contact</a></button>
+            <div class="dropdown-content">
+            </div>
+        </div>
+    </div> 
+</nav>
+<div class="containerform">
+    <form class="form" action="http://vip.groupehn.com:20003/html/infospost.php">
+        <input class="yourclass" id="lastname" type="text" name="lastname" placeholder="lastname" required/>
+        <input class="yourclass" id="firstname" type="text" name="firstname" placeholder="firstname" required/>
+        <input class="yourclass" id="mail" type="email" name="email" placeholder="yourmail@yahoo.com" required />
+        <textarea class="yourclass" name="request" id="request" cols="66" rows="10" placeholder="message ..." required></textarea>
+        <select class="yourclass" name="country" id="country" required> 
+            <option value="France">France</option>
+            <option value="Other">Other</option> 
+        </select>
+        <button type="submit"> Send</button>
+    </form>
+</div>
+</body>
+</html>
